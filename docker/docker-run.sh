@@ -9,4 +9,4 @@ docker run -it --rm \
    --volume "$HOME/.Xauthority:/root/.Xauthority:rw" \
    --volume "$HOME/sharefolder:/sharefolder" \
    --volume /dev/video0:/dev/video0 \
-   kfc:u14-ros-indigo-autoware /bin/bash
+   kunfengchen:u14-ros-indigo-autoware /bin/bash
