@@ -4,11 +4,11 @@ In sefl-driving-car/docker
 
 ### Build
 ```
-$ docker-build.sh
+$ sh docker-build.sh
 ```
 ### Run
 ```
-$ docker-run.sh
+$ sh docker-run.sh
 ```
 ### TODO https://github.com/CPFL/Autoware
 ```
