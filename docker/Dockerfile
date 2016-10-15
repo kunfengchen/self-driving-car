@@ -19,3 +19,21 @@ RUN apt-get update && apt-get install -y \
    git \
    openssh-server \
    && rm -rf /var/lib/apt/lists/
+
+### Install Autoware
+RUN cd $HOME \
+    && git clone https://github.com/CPFL/Autoware.git
+
+RUN apt-get update && apt-get install -y \
+    ros-indigo-jsk-visualization \
+    && rm -rf /var/lib/apt/lists/
+
+RUN ["/bin/bash", "-c", "cd ~/Autoware/ros/src \
+    && source /opt/ros/indigo/setup.bash \
+    && catkin_init_workspace \
+    && cd ../ \
+    && ./catkin_make_release"]
+
+RUN apt-get update && apt-get install -y \
+    gnome-terminal \
+    && rm -rf /var/lib/apt/lists/
