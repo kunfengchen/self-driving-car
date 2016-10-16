@@ -28,3 +28,16 @@ $ sh docker-run.sh
 $ cd ~/Autoware/ros
 $ ./run
 ```
+
+## X Display back from docker image
+### MacOS
+Ref: https://github.com/docker/docker/issues/8710
+
+1. In a host terminal:
+  ```
+  socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
+  ```
+
+2. Change the docker-run.sh DISPLAY line to `--env="DISPLAY=192.168.99.1:0”` (where 192.168.99.1 is from `ifconfig vboxnet0` in  a host terminal)
+
+3. Restart `./docker-run.sh`
