@@ -23,4 +23,8 @@ $ ./run
 ```
 $ docker pull kunfengchen/sdc:u14-ros-indigo-autoware
 $ sh docker-run.sh
+
+(You are in the docker image now)
+$ cd ~/Autoware/ros
+$ ./run
 ```
