@@ -21,6 +21,6 @@ $ ./run
 
 ## Using the pre-built image (3.6G) in dockerhub (without building the Dockerfile)
 ```
-$ rocker pull kunfengchen/sdc:u14-ros-indigo-autoware
+$ docker pull kunfengchen/sdc:u14-ros-indigo-autoware
 $ sh docker-run.sh
 ```
