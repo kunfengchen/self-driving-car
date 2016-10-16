@@ -30,7 +30,7 @@ $ ./run
 ```
 
 ## X Display back from docker image
-### MacOS
+### OSX
 Ref: https://github.com/docker/docker/issues/8710
 
 1. In a host terminal:
