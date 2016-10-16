@@ -13,7 +13,7 @@ $ sh docker-build.sh
 ```
 $ sh docker-run.sh
 
-(You are in the docker image now)
+(You are in the container now)
 $ cd ~/Autoware/ros
 $ ./run
 
@@ -24,7 +24,7 @@ $ ./run
 $ docker pull kunfengchen/u14-ros-indigo-autoware
 $ sh docker-run.sh
 
-(You are in the docker image now)
+(You are in the container now)
 $ cd ~/Autoware/ros
 $ ./run
 ```
