@@ -1,8 +1,11 @@
+## Docker Documentation
+https://docs.docker.com/
+
 ## Using Dockerfile
 
 In sefl-driving-car/docker
 
-### Build
+### Build (Take about an hour?)
 ```
 $ sh docker-build.sh
 ```
@@ -14,4 +17,14 @@ $ sh docker-run.sh
 $ cd ~/Autoware/ros
 $ ./run
 
+```
+
+## Using the pre-built image (3.6G) in dockerhub (without building the Dockerfile)
+```
+$ docker pull kunfengchen/sdc:u14-ros-indigo-autoware
+$ sh docker-run.sh
+
+(You are in the docker image now)
+$ cd ~/Autoware/ros
+$ ./run
 ```
