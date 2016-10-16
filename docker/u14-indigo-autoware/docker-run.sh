@@ -5,4 +5,4 @@ docker run -it --rm \
    --env="DISPLAY" \
    --volume "$HOME/.Xauthority:/root/.Xauthority:rw" \
    --volume "$HOME/sharefolder:/sharefolder" \
-   kunfengchen/sdc:u14-ros-indigo-autoware /bin/bash
+   kunfengchen/u14-indigo-autoware /bin/bash
