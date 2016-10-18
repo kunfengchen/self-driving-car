@@ -1,6 +1,7 @@
 # Work in Progress ...
 ## Dockerfile based on kunfengchen:u14-indigo-autoware
-1. app-get install default-jdk
-2. ros_java
-3. rosbridge, java_rosbridge
-4. others ?
+app-get install default-jdk
+apt-get install ros-indigo-genjava
+ros_java
+rosbridge, java_rosbridge
+others ?
