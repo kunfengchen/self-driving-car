@@ -26,4 +26,7 @@ RUN echo "export PATH=\${PATH}:/opt/android-studio/sdk/tools:/opt/android-studio
 ##    && cd ../ \
 ##    && ./catkin_make_release"]
 
+## For 64 bit machine
+RUN apt-get install -y lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6
+
 RUN rm -rf /var/lib/apt/lists/
