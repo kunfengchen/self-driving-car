@@ -29,3 +29,9 @@ $ studio.sh
 $ cd ~/Autoware/ros
 $ ./run
 ```
+
+### Reference
+http://wiki.ros.org/ApplicationsPlatform/Clients/Android/Tutorials/Getting%20Started
+```
+git clone -b hydro-standalone https://github.com/ros-java/android_apps.git
+```
