@@ -3,7 +3,7 @@ https://docs.docker.com/
 
 ## Using Dockerfile
 
-In sefl-driving-car/docker
+In sefl-driving-car/docker/u14-indigo-autoware
 
 ### Build (Take about an hour?)
 ```
