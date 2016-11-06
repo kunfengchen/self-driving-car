@@ -1,0 +1,2 @@
+export LC_ALL=C
+min_apt_get_install='apt-get install -y --noinstall-recommends'
