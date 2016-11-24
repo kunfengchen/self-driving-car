@@ -3,7 +3,7 @@
 ##   git clone https://github.com/NVIDIA/nvidia-docker.git
 ##   cd ubuntu-16.04/cuda
 ##   make cudnn
-FROM cuda:cudnn5-devel
+FROM cuda:8.0-cudnn5-devel
 
 ## REF: https://github.com/phusion/baseimage-docker/tree/master/image
 ADD ./dbuild /dbuild

@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t kunfengchen/sdc/u16-cudnn5-tf11 .
+docker build -t kunfengchen/u16-cudnn5-tf11 .

@@ -39,3 +39,7 @@ make -j 12
 #   make -j 12
 
 make install
+
+# ImportError: dynamic module does not define module export function (PyInit_cv2)
+cd /usr/local/lib/python3.5/dist-packages/
+sudo ln -s cv2.cpython-35m-x86_64-linux-gnu.so cv2.so
